@@ -16,7 +16,7 @@ Client thread parse data and sends back reply to client.
 Queue implemented using linked list data structure, which stores the request number, websites to be pinged and their results.
 Another threads waits for user input to exit the server application. Server waits for all clients to exit before shutting down the application.
 
-Variable run is not locked using a semaphore. This should be done by whoever uses this code.
+Variable "run" is not locked using a semaphore. This should be done by whoever uses this code.
 
 #Instructions
 
